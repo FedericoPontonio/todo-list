@@ -8,7 +8,7 @@ module.exports = {
     filename: 'index_bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  mode: 'development',      //to be removed
+  // mode: 'development',      //to enable when needed
   plugins: [new HtmlWebpackPlugin({
     filename: 'index.html',
     template: 'src/index.html',
