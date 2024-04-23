@@ -15,7 +15,7 @@ secondario
     -projects
     aggiungere descrizione da qualche parte     !!done!!
     abbellire bottoni e aggiungere qualche tipo di responsività e indicatore del progetto attivo
-    bug bottoni edit/delete progetti
+    bug bottoni edit/delete progetti            !!done!!
 
 
 se io clicco add task posso mettere menu a tendina per selezionare quale progetto. 

@@ -3,20 +3,20 @@ import { createDefaultProject, addTaskButton } from './defaultProject';
 import { generateNewProjectForm, updateForm, updateProjectForm} from './forms';
 
 
-//use user's projects if there exist any
-(function () {
-    let retrievedProjects = JSON.parse(localStorage.getItem('projectsJson'));
-    if (retrievedProjects && retrievedProjects.length>0) {
-        projectsSetter(retrievedProjects);
-    }
-    else {
-        createDefaultProject();
-    }
-}) ();
 
 export let activeProject = projects[0];
 
 export function pageStructure () {
+    //use user's projects if there exist any
+    (function () {
+        let retrievedProjects = JSON.parse(localStorage.getItem('projectsJson'));
+        if (retrievedProjects && retrievedProjects.length>0) {
+            projectsSetter(retrievedProjects);
+        }
+        else {
+            createDefaultProject();
+        }
+    }) ();
 
     //main sections
     let body = document.querySelector('.body');
