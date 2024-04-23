@@ -6,7 +6,7 @@ import { generateNewProjectForm, updateForm, updateProjectForm} from './forms';
 //use user's projects if there exist any
 (function () {
     let retrievedProjects = JSON.parse(localStorage.getItem('projectsJson'));
-    if (retrievedProjects.length>0) {
+    if (retrievedProjects && retrievedProjects.length>0) {
         projectsSetter(retrievedProjects);
     }
     else {
