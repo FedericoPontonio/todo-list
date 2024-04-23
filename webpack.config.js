@@ -7,7 +7,6 @@ module.exports = {
   output: {
     filename: 'index_bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/todo-list/'
   },
   // mode: 'development',      //to enable when needed
   plugins: [new HtmlWebpackPlugin({
