@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+* {
+    font-family: 'Poppins';
+    font-weight: 400;
+    background-color: #e4e7e8;
+}
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    height: 98vh;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    min-height: 80vh;
+    
+}
+
+.leftMenu {
+    background-color: #999bce;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 5px;
+    align-items: center;
+    overflow: scroll;
+
+}
+.projectHeader {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    height: 90px;
+    justify-content: space-between;
+    min-width: 400px;
+}
+.headerText {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 35px;
+}
+.addProjectButton {
+    height: 60px;
+    background-color: #5e98b2; 
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.projectButton {
+    height: 80px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    max-width: 80%;
+    background-color: rgba(236, 236, 245, 0.764);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.manipulateProjectButtons{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.updateDeleteButtons {
+    height: 40px;
+    font-size: 15px;
+    background-color: rgba(236, 236, 245, 0.764);
+
+}
+.projectBox {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    max-width: 80%; 
+    background-color: transparent;
+    border: solid rgb(77, 39, 118) 2px;
+    border-radius: 20px;
+}
+
+.taskBox {
+    border: solid 2px rgb(59, 74, 234);
+    min-height: 200px;
+    height: min-content;
+    border-radius: 40px;
+    padding: 10%;
+    background-color: rgba(220, 225, 228, 0.7);
+    padding-bottom: 0px;
+}
+.taskBox>div {
+    background-color: transparent;
+    border-bottom: dotted black 1px;
+
+}
+
+/*tasks fields*/
+.taskTitle {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+
+}
+.manipulateTaskButtons {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.deleteButtons {
+    background-color: rgb(244, 70, 70);
+}
+.updateButtons {
+    background-color: yellowgreen;
+}
+.deleteButtons, .updateButtons {
+    border-radius: 25px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    width: 100px;
+}
+/*tasks fields*/
+
+
+.mainContent {
+    background-color: #8da3ad; /*da rivedere*/
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.mainContentHeader {
+    grid-column: 1 / 4;
+    height: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#projectDescription {
+    background-color: transparent;
+    font-size: 25px;
+    border: dotted black 1px;
+    font-family: cursive;
+}
+
+.formProject, .formTask {
+    position: fixed;
+    bottom: 25%;
+    left: 40%;
+    padding: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+
+.formProject {
+    background-color: rgba(153,155,206, 0.7);
+    border: solid rgb(77, 39, 118) 2px;
+}
+.formTask {
+    background-color: rgba(141,163,173, 0.7);
+    border: solid 2px rgb(59, 74, 234);
+
+}
+button {
+    height: 60px;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+    
+.addTaskButton {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    font-weight: 700;
+    background-color: yellow;
+    color: rgb(255, 89, 0);
+    border-radius: 10px;
+}

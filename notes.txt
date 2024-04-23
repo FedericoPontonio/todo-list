@@ -1,0 +1,47 @@
+priorità:
+    modify projects                  !!done!!
+    delete projects                  !!done!!
+    modify tasks                     !!done!!
+    delete tasks                     !!done!!
+    aggiungere dates library    
+    aggiungere db library            !!done!!
+
+secondario
+    abbellire
+    -tasks
+    allargare e stringere description (di tutto? e lasciare solo titolo e priorità nella preview?)
+    switch button con svg per "completed"
+    sistemare layout e grafica dei campi
+    -projects
+    aggiungere descrizione da qualche parte     !!done!!
+    abbellire bottoni e aggiungere qualche tipo di responsività e indicatore del progetto attivo
+    bug bottoni edit/delete progetti
+
+
+se io clicco add task posso mettere menu a tendina per selezionare quale progetto. 
+come placeholder metto currentProject.
+
+
+
+
+CONTI CAMPEGGIO
+
+TENDA = 13€ A NOTTE
+    5 TENDE => 13*5 = 65€
+
+PERSONA = 12€ A NOTTE
+    8 PERSONE => 12*8 = 96€
+
+TOTALE A NOTTE
+    65 + 96 = 161€
+
+---------------------------
+
+TOTALE SOGGIORNO
+    161*9 = 1449€
+
+ACCONTO TOTALE = 30%
+    1449 * 0,3 = 434,7€
+
+ACCONTO A TESTA
+    434,7 / 8 = 54,34€
