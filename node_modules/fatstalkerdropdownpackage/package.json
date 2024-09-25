@@ -1,0 +1,19 @@
+{
+  "name": "fatstalkerdropdownpackage",
+  "version": "1.0.0",
+  "description": "This package contains a simple function for creating a dropdown menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatstalker/dropdownPackage.git"
+  },
+  "author": "fatstalker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatstalker/dropdownPackage/issues"
+  },
+  "homepage": "https://github.com/fatstalker/dropdownPackage#readme"
+}

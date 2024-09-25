@@ -14,7 +14,7 @@ export function createDefaultProject() {
 
     task(projects[1], "Acquisto spazi","", "02/03/2025", priority[0], "Me serve un bel capannone grosso ")//to remove
     task(projects[1], "Valutare apertura al pubblico", "voglio farla privata o ci faccio dei soldi vendendo gli ingressi?", "02/03/2075", priority[1], "")//to remove
-    task(projects[1], "Acquistare donne in costume", "Nella mia piscina voglio assolutamente delle donne che girano e nuotano", "02/03/2029", priority[0], "")//to remove
+    task(projects[1], "Assumere ragazze e ragazzi immagine", "Nella mia piscina voglio assolutamente persone attraenti che attraggano clienti", "02/03/2029", priority[0], "")//to remove
     
     };
 

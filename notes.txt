@@ -22,26 +22,3 @@ se io clicco add task posso mettere menu a tendina per selezionare quale progett
 come placeholder metto currentProject.
 
 
-
-
-CONTI CAMPEGGIO
-
-TENDA = 13€ A NOTTE
-    5 TENDE => 13*5 = 65€
-
-PERSONA = 12€ A NOTTE
-    8 PERSONE => 12*8 = 96€
-
-TOTALE A NOTTE
-    65 + 96 = 161€
-
----------------------------
-
-TOTALE SOGGIORNO
-    161*9 = 1449€
-
-ACCONTO TOTALE = 30%
-    1449 * 0,3 = 434,7€
-
-ACCONTO A TESTA
-    434,7 / 8 = 54,34€
